@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+/*Classes Navegação:*/
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image:linear-gradient(#000000,#1e1d1b);
+    padding: 40px;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 999;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+.item-nav{
+    gap: 50px;
+    font-size: 20px;
+    
+}
+
+
+/*____________________________________________________________________________________________________*/
+
+/*Classes Body Tela inicial:*/
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:flex-end;
+    margin-bottom: 10px;
+    position: relative;
+    left:10px;
+}
+
+.card {
+    background-image:linear-gradient(#000000,#1e1d1bf1);
+    color: white;
+    border-radius: 20px;
+    width: 300px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.imagens_carrosel {
+    border-radius: 20px;
+}
+
+
+/*Desfoque:*/
+.bg-blur {
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    border-radius: 40px;
+  }
+  
+  .text-blur {
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  /*Classes Body Tela Login e Registro*/
+
+  .cadastro_login{
+    margin-top: 20px; 
+    margin-bottom:20px; 
+    background-image:linear-gradient(#000000,#1e1d1bf1); 
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+
+/*______________________________________________________________________________________________________*/
+
+/*Classes Footer:*/
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image:linear-gradient(#000000,#1e1d1bf1); 
+    padding: 70px; 
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    color: white;
+    bottom: 0;
+    left: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.body{
+    flex-direction: column;
+}

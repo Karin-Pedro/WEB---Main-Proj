@@ -1,4 +1,7 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 
 /*Classes Navegação:*/
 
@@ -14,12 +17,14 @@
     border-bottom-right-radius: 20px;
     z-index: 999;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Lobster', cursive;
     
 }
 
 .item-nav{
     gap: 50px;
     font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
     
 }
 
@@ -35,14 +40,13 @@
     align-items:flex-end;
     margin-bottom: 10px;
     position: relative;
-    left:10px;
+    
 }
 
 .card {
-    background-image:linear-gradient(#000000,#1e1d1bf1);
+    background-image:linear-gradient(#1e1d1bf1, #000000);
     color: white;
     border-radius: 20px;
-    width: 300px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -65,7 +69,7 @@
 
   /*Classes Body Tela Login e Registro*/
 
-  .cadastro_login{
+  .container_padrao{
     margin-top: 20px; 
     margin-bottom:20px; 
     background-image:linear-gradient(#000000,#1e1d1bf1); 
@@ -74,6 +78,17 @@
     padding-bottom: 20px;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    width:50rem; 
+    height:fit-content
+  }
+
+  .botao_perfil{
+    border: 2px solid white; 
+    border-radius:20px
+  }
+
+  .botao_perfil:hover{
+    background-color: #d17606;
   }
   
 
@@ -93,6 +108,7 @@
     bottom: 0;
     left: 0;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .body{

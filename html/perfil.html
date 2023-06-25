@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Classes CSS -->
+    <link rel="stylesheet" href="/CSS/style.css">
+
+    <title>Hostel</title>
+
+</head>
+<body style="background-image:linear-gradient(to left, #feae4b, #ffed65, #ffed65, #d17606);">
+
+  <div class="d-flex flex-column">
+    <!-- NavBar -->
+    <nav class="navbar flex-grow-1 header navbar-dark container-fluid navbar-expand-lg cabecalho">
+
+          <div class="navbar-brand align-center" href="#">
+            <img src="/imgs/logo.jpg" width="80" height="80" class="d-inline-block align-center rounded-circle mb-2" alt="">
+            <h1 class="d-inline-block align-center mt-3 ml-2">BorocoBoco</h1>
+          </div>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarbase" aria-controls="navbarbase" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarbase">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link item-nav" href="/html/home.html">Home</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link item-nav" href="#contatos">Contatos</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link item-nav" href="/html/login.html">LogIn</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link item-nav" href="/html/perfil.html">Meu perfil</a>
+              </li>
+            </ul>
+          </div>  
+
+    </nav>
+    
+    <!-- Main -->
+    <div class="container container_padrao flex-column">
+
+      <!-- Info Perfil -->
+      <div class="row justify-content-center">
+
+          <div class="col-md-12 col-sm-6 row align-items-center justify-content-around border-bottom">
+            <img src="/imgs/logo.jpg" width="120" height="120" class="d-inline-block align-center rounded-circle mb-3" alt="avatar_perfil">
+            <h2>Nome Cidadão</h2>
+
+            <div class="d-flex justify-content-around container-fluid">
+              <h6 class="ml-5">E-mail:</h6>
+              <h6>Telefone:</h6>
+            </div>
+          </div>
+
+      </div>
+
+      <!-- Botões -->
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-12 col-sm-6 row justify-content-around">
+
+          <div class="col-md-5 col-sm-3 btn-transparent btn botao_padrao mb-2" data-toggle="collapse" href="#hist_reservas" role="button" aria-expanded="false" aria-controls="hist_reservas">
+            Reservas
+          </div>
+
+          <div class="col-md-5 col-sm-3 btn-transparent btn botao_padrao mb-2" data-toggle="collapse" href="#alt_dados" role="button" aria-expanded="false" aria-controls="alt_dados">
+            Alterar Dados
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Reservas -->
+      <div class="collapse mt-3" id="hist_reservas">
+        <div class="scroll_padrao border-bottom">
+          <div class="d-flex justify-content-center mb-3">
+            <a class="btn-transparent btn botao_padrao d-flex justify-content-center text-white" href="/html/reserva.html">
+              Fazer uma nova reserva
+            </a>
+          </div>
+
+          <div id="list-item-1" class="reserva_card mb-2 flex-column">
+            <h4 class="ml-1">Reserva Código</h4>
+            <div class="d-flex justify-content-around container-fluid">
+              <h5>Inicio:</h5>
+              <h5>Fim:</h5>
+              <h5>Status:</h5>
+            </div>
+          </div>
+
+          <div id="list-item-1" class="reserva_card mb-2 flex-column">
+            <h4 class="ml-1">Reserva Código</h4>
+            <div class="d-flex justify-content-around container-fluid">
+              <h5>Inicio:</h5>
+              <h5>Fim:</h5>
+              <h5>Status:</h5>
+            </div>
+          </div>
+
+          <div id="list-item-1" class="reserva_card mb-2 flex-column">
+            <h4 class="ml-1">Reserva Código</h4>
+            <div class="d-flex justify-content-around container-fluid">
+              <h5>Inicio:</h5>
+              <h5>Fim:</h5>
+              <h5>Status:</h5>
+            </div>
+          </div>
+
+          <div id="list-item-1" class="reserva_card mb-2 flex-column">
+            <h4 class="ml-1">Reserva Código</h4>
+            <div class="d-flex justify-content-around container-fluid">
+              <h5>Inicio:</h5>
+              <h5>Fim:</h5>
+              <h5>Status:</h5>
+            </div>
+          </div>
+
+          <div id="list-item-1" class="reserva_card mb-2 flex-column">
+            <h4 class="ml-1">Reserva Código</h4>
+            <div class="d-flex justify-content-around container-fluid">
+              <h5>Inicio:</h5>
+              <h5>Fim:</h5>
+              <h5>Status:</h5>
+            </div>
+          </div>
+
+          <div id="list-item-1" class="reserva_card mb-2 flex-column">
+            <h4 class="ml-1">Reserva Código</h4>
+            <div class="d-flex justify-content-around container-fluid">
+              <h5>Inicio:</h5>
+              <h5>Fim:</h5>
+              <h5>Status:</h5>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Alterar Dados -->
+      <div class="mt-3 collapse"  id="alt_dados">
+        <div class="scroll_padrao mt-3">
+          <form>
+
+            <div class="d-flex justify-content-center mb-2">
+              <div class="btn-transparent btn botao_padrao" data-toggle="collapse" href="#alt_email" role="button" aria-expanded="false" aria-controls="alt_email">
+                Alterar e-mail
+              </div>
+            </div>
+            <div class="form-group" id="alt_email">
+                <label for="email"> Novo Email:</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+
+            <div class="d-flex justify-content-center mb-2">
+              <div class="btn-transparent btn botao_padrao" data-toggle="collapse" href="#alt_senha" role="button" aria-expanded="false" aria-controls="alt_senha">
+                Alterar senha
+              </div>
+            </div>
+            <div class="form-group" id="alt_senha">
+                <label for="senha">Nova Senha:</label>
+                <input type="password" class="form-control" id="senha">
+            </div>
+
+            <div class="d-flex justify-content-center mb-2">
+              <div class="btn-transparent btn botao_padrao" data-toggle="collapse" href="#alt_tel" role="button" aria-expanded="false" aria-controls="alt_tel">
+                Alterar telefone
+              </div>
+            </div>
+            <div class="form-group"  id="alt_tel">
+              <label for="senha">Nova Telefone:</label>
+              <input type="password" class="form-control" id="senha">
+            </div>
+            
+            <div class="d-flex justify-content-center mt-4">
+              <button type="submit" class="btn btn-primary d-flex justify-content-center">Pronto</button>
+            </div>  
+        </form>
+        </div>
+
+      </div>
+
+    </div>
+  
+    <!-- Footer -->
+    <div class="container-fluid footer" id="contatos">
+        
+      <footer class="text-center container text-lg-start" style="background-image:linear-gradient(#000000,#1e1d1bf1); border-radius: 20px;">
+      
+      <div class="container p-4 pb-5">
+        
+        <section class="">
+          
+          <div class="row">
+            
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">
+                BorocoBoco
+              </h6>
+              <p>
+                Trabalho de WEB desenvolvido pela equipe formada por: Pedro Madruga, Paulo Versace, Mikael Malakaias, Darcio Drums.
+              </p>
+            </div>
+  
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Ferramentas</h6>
+              <p>
+                <a>MDBootstrap</a>
+              </p>
+              <p>
+                <a>DataMySQL</a>
+              </p>
+              <p>
+                <a>JavaScript</a>
+              </p>
+              <p>
+                <a>Node</a>
+              </p>
+            </div>
+  
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">
+                Links Importantes
+              </h6>
+              <p>
+                <a class="text-white" href="/html/login.html">LogIn</a>
+              </p>
+              <p>
+                <a  class="text-white" href="/html/cadastro.html">Cadastro</a>
+              </p>
+            </div>
+  
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contatos</h6>
+              <p><i class="fas fa-home mr-3"></i> Russas, TV Anibal, CE</p>
+              <p><i class="fas fa-envelope mr-3"></i> pedrobaachan@gmail.com</p>
+              <p><i class="fas fa-phone mr-3"></i> + 063 9 99380884</p>
+            </div>
+
+          </div>
+
+        </section>
+  
+        <hr class="my-3">
+  
+        <section class="p-3 pt-0">
+          <div class="row d-flex align-items-center">
+
+            <div class="col-md-7 col-lg-8 text-center text-md-start">
+
+              <div class="p-3">
+                © 2023 Copyright:
+                <a href="http://www.campusrussas.ufc.br/">campusrussas.ufc.br</a>
+              </div>
+
+            </div>
+            
+          </div>
+        </section>
+        
+      </div>
+      
+      </footer>
+    </div>
+
+  </div>
+
+    <!-- Boostrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>

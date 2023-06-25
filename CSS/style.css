@@ -48,6 +48,7 @@
     color: white;
     border-radius: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .imagens_carrosel {
@@ -67,7 +68,7 @@
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
-  /*Classes Body Tela Login e Registro*/
+  /*Classes Body Tela Login, Registro, Perfil e Reseva*/
 
   .container_padrao{
     margin-top: 20px; 
@@ -77,20 +78,34 @@
     padding-top: 20px;
     padding-bottom: 20px;
     color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    width:50rem; 
-    height:fit-content
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    height:fit-content;
+    font-family: 'Ubuntu', sans-serif;
   }
 
-  .botao_perfil{
+  .botao_padrao{
     border: 2px solid white; 
     border-radius:20px
   }
 
-  .botao_perfil:hover{
+  .botao_padrao:hover{
     background-color: #d17606;
   }
+
+  .scroll_padrao{
+    height: 200px;
+    overflow-y: auto;
+  }
   
+  .reserva_card{
+    background-image:linear-gradient(to left, #feae4b, #f0901b, #d17606);
+    border-radius: 20px;
+    border-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    font-family: 'Ubuntu', sans-serif;
+  }
 
 /*______________________________________________________________________________________________________*/
 
@@ -105,8 +120,6 @@
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     color: white;
-    bottom: 0;
-    left: 0;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-family: 'Ubuntu', sans-serif;
 }

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Classes CSS -->
+    <link rel="stylesheet" href="/CSS/style.css">
+
+    <title>Hostel</title>
+
+</head>
+<body style="background-image:linear-gradient(to left, #feae4b, #ffed65, #ffed65, #d17606);">
+
+    <div class="d-flex flex-column">
+      
+      <!-- NavBar -->
+      <nav class="navbar header navbar-dark container-fluid navbar-expand-lg cabecalho">
+
+        <div class="navbar-brand align-center" href="#">
+            <img src="/imgs/logo.jpg" width="80" height="80" class="d-inline-block align-center rounded-circle mb-2" alt="">
+            <h1 class="d-inline-block align-center mt-3 ml-2">BorocoBoco</h1>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarbase" aria-controls="navbarbase" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarbase">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link item-nav" href="/html/home.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link item-nav" href="#contatos">Contatos</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link item-nav" href="/html/login.html">LogIn</a>
+            </li>
+          </ul>
+        </div>  
+
+      </nav>
+      
+      <!-- Carrosel -->
+      <div id="carroselslides" class="carousel slide flex-grow-2" data-ride="carousel" style="margin-top: -35px;">
+      
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img class="d-block w-100 imagens_carrosel" src="/imgs/carrosel_1.jpg" alt="Primeiro Slide">
+
+            <div class="carousel-caption d-none d-md-block texto_carrosel_fundo bg-blur">
+              <h1 class="text-blur">Canoa Quebrada - CE</h5>
+              <h5 class="text-blur">Experiências místicas!</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-100 imagens_carrosel" src="/imgs/carrosel2.jpg" alt="Segundo Slide">
+
+            <div class="carousel-caption d-none d-md-block bg-blur">
+              <h1 class="text-blur">Jalapão - TO</h5>
+              <h5 class="text-blur">Viagem íntima ao Cerrado Tocantinense</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-100 imagens_carrosel" src="/imgs/carrosel3.jpg" alt="Terceiro Slide">
+
+            <div class="carousel-caption d-none d-md-block texto_carrosel_fundo bg-blur" style="width: auto;">
+              <h1 class="text-blur">Chapada dos Veadeiros</h5>
+              <h5 class="text-blur">Arquitetura da terra em sua beleza mais pura</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Cards -->
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-center">
+
+                  <div class="col-md-4 mb-4 mt-3">
+                    <div class="card">
+                      <img class="card-img-top" src="/imgs/grande.jpg"alt="Imagem de capa do card" style="border-radius: 20px;">
+                      <div class="card-body">
+                        <h5 class="card-title">Quarto Grande</h5>
+                        <p class="card-text">O quarto grande do hostel é um verdadeiro refúgio para os viajantes que desejam espaço e conforto extra. Com generosas dimensões, ele oferece uma área ampla e bem distribuída, com uma cama king-size, uma área de estar com sofá ou poltronas, uma mesa de trabalho e um pequeno espaço fit</p>
+                        <a href="/html/login.html" class="btn btn-warning botao_padrao">Agendar</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4  mb-4 mt-3">
+                    <div class="card">
+                      <img class="card-img-top" src="/imgs/medio.jpg" alt="Imagem de capa do card" style="border-radius: 20px;">
+                      <div class="card-body">
+                        <h5 class="card-title">Quarto Médio</h5>
+                        <p class="card-text">O quarto médio do hostel oferece um espaço confortável e versátil para os viajantes. Com dimensões um pouco maiores que o quarto pequeno, ele possui uma disposição inteligente dos móveis, incluindo uma cama espaçosa, uma área de estar com poltrona ou sofá e uma mesa de trabalho</p>
+                        <a  href="/html/login.html" class="btn btn-warning botao_padrao">Agendar</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4  mb-4 mt-3 ">
+                    <div class="card">
+                      <img class="card-img-top" src="/imgs/pequeno.jpg" alt="Imagem de capa do card" style="border-radius: 20px;">
+                      <div class="card-body">
+                        <h5 class="card-title">Quarto Pequeno</h5>
+                        <p class="card-text">O quarto do hostel é aconchegante e ideal para os viajantes que buscam uma opção de hospedagem econômica. Apesar de ser pequeno, ele é bem organizado, com espaço suficiente para acomodar uma cama confortável, uma mesa de trabalho e um armário para guardar pertences. É o mais famoso no site</p>
+                        <a href="/html/login.html" class="btn btn-warning botao_padrao">Agendar</a>
+                      </div>
+                    </div>
+                  </div>
+            
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="container-fluid bottom-fixed footer" id="contatos">
+        
+      <footer class="text-center container text-lg-start" style="background-image:linear-gradient(#000000,#1e1d1bf1); border-radius: 20px;">
+      
+      <div class="container p-4 pb-5">
+        
+        <section class="">
+          
+          <div class="row">
+            
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">
+                BorocoBoco
+              </h6>
+              <p>
+                Trabalho de WEB desenvolvido pela equipe formada por: Pedro Madruga, Paulo Versace, Mikael Malakaias, Darcio Drums.
+              </p>
+            </div>
+  
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Ferramentas</h6>
+              <p>
+                <a>MDBootstrap</a>
+              </p>
+              <p>
+                <a>DataMySQL</a>
+              </p>
+              <p>
+                <a>JavaScript</a>
+              </p>
+              <p>
+                <a>Node</a>
+              </p>
+            </div>
+  
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">
+                Links Importantes
+              </h6>
+              <p>
+                <a class="text-white" href="/html/login.html">LogIn</a>
+              </p>
+              <p>
+                <a class="text-white" href="/html/cadastro.html">Cadastro</a>
+              </p>
+            </div>
+  
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contatos</h6>
+              <p><i class="fas fa-home mr-3"></i> Russas, TV Anibal, CE</p>
+              <p><i class="fas fa-envelope mr-3"></i> pedrobaachan@gmail.com</p>
+              <p><i class="fas fa-phone mr-3"></i> + 063 9 99380884</p>
+            </div>
+
+          </div>
+
+        </section>
+  
+        <hr class="my-3">
+  
+        <section class="p-3 pt-0">
+          <div class="row d-flex align-items-center">
+
+            <div class="col-md-7 col-lg-8 text-center text-md-start">
+
+              <div class="p-3">
+                © 2023 Copyright:
+                <a href="http://www.campusrussas.ufc.br/">campusrussas.ufc.br</a>
+              </div>
+
+            </div>
+            
+          </div>
+        </section>
+        
+      </div>
+      
+      </footer>
+      </div>
+
+    </div>
+    <!-- Boostrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

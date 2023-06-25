@@ -9,20 +9,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!-- Classes CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/CSS/style.css">
 
     <title>Hostel</title>
 
 </head>
-<body style="background-image:linear-gradient(to left, #feae4b, #f0901b, #d17606);">
+<body style="background-image:linear-gradient(to left, #feae4b, #ffed65, #ffed65, #d17606);">
 
-    <!-- Problemas a resolver -->
-        <!-- Sobreposição do rodapé -->
-        <!-- Layout cadastro -->
-
-  <div class="d-flex flex-column">
     <!-- NavBar -->
-    <nav class="navbar flex-grow-1 header navbar-dark container-fluid navbar-expand-lg cabecalho">
+    <nav class="navbar header navbar-dark container-fluid navbar-expand-lg cabecalho">
 
           <div class="navbar-brand align-center" href="#">
             <img src="/imgs/logo.jpg" width="80" height="80" class="d-inline-block align-center rounded-circle mb-2" alt="">
@@ -36,13 +31,13 @@
           <div class="collapse navbar-collapse" id="navbarbase">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
               <li class="nav-item active">
-                <a class="nav-link item-nav" href="#">Home</a>
+                <a class="nav-link item-nav" href="/html/home.html">Home</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link item-nav" href="#">Contatos</a>
+                <a class="nav-link item-nav" href="#contatos">Contatos</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link item-nav" href="#">LogIn</a>
+                <a class="nav-link item-nav" href="/html/login.html">LogIn</a>
               </li>
             </ul>
           </div>  
@@ -50,66 +45,44 @@
     </nav>
     
     <!-- Main -->
-    <div class="container flex-grow-2 container_padrao flex-column">
+    <div class="container container_padrao">
       <div class="row justify-content-center">
-          <div class="col-md-12 col-sm-6 row align-items-center justify-content-around border-bottom">
-            <img src="/imgs/logo.jpg" width="120" height="120" class="d-inline-block align-center rounded-circle mb-3" alt="">
-            <h2>Nome Cidadão</h2>
-            <h3>DADO 1</h3>
-            <h3>DADO 1</h3>
+          <div class="col-md-12 col-sm-6">
+              <h2>Cadastro</h2>
+              <form>
+                  <div class="form-group">
+                      <label for="nome">Nome:</label>
+                      <input type="text" class="form-control" id="nome">
+                  </div>
+                  <div class="form-group">
+                      <label for="email">Email:</label>
+                      <input type="email" class="form-control" id="email">
+                  </div>
+                  <div class="form-group">
+                      <label for="senha">Senha:</label>
+                      <input type="password" class="form-control" id="senha">
+                  </div>
+                  <div class="form-group">
+                    <label for="cpf">CPF:</label>
+                    <input type="number" class="form-control" id="cpf">
+                  </div>
+                  <div class="form-group">
+                    <label for="cel">Telefone:</label>
+                    <input type="password" class="form-control" id="cel">
+                  </div>
+                  <a type="submit" class="btn btn-warning botao_padrao"  href="/html/perfil.html">Cadastrar</a>
+              </form>
           </div>
-      </div>
-
-      <div class="row justify-content-center mt-4">
-        <div class="col-md-12 col-sm-6 row justify-content-around">
-
-          <div class="col-md-5 col-sm-3 btn-transparent btn botao_perfil">
-            Seção 1
-          </div>
-
-          <div class="col-md-5 col-sm-3 btn-transparent btn botao_perfil">
-            Seção 1
-          </div>
-
-        </div>
-      </div>
-
-      <div >
-
-        <div class="row">
-          <div class="col-4">
-            <div id="list-example" class="list-group">
-              <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
-              <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
-              <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
-              <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
-            </div>
-          </div>
-          <div class="col-8">
-            <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
-              <h4 id="list-item-1">Item 1</h4>
-              <p>...</p>
-              <h4 id="list-item-2">Item 2</h4>
-              <p>...</p>
-              <h4 id="list-item-3">Item 3</h4>
-              <p>...</p>
-              <h4 id="list-item-4">Item 4</h4>
-              <p>...</p>
-            </div>
-          </div>
-        </div>
 
       </div>
-
-      
     </div>
-  
-  <!-- Footer -->
-    <div class="container-fluid bottom-fixed" style="background-color: aqua;">
+
+    <!-- Footer -->
+    <div class="container-fluid bottom-fixed footer" id="contatos">
         
-    <footer class="text-center container-fluid footer text-lg-start text-white" style="background-color: #45526e">
+      <footer class="text-center container text-lg-start" style="background-image:linear-gradient(#000000,#1e1d1bf1); border-radius: 20px;">
       
-      <div class="container p-4 pb-0">
+      <div class="container p-4 pb-5">
         
         <section class="">
           
@@ -129,16 +102,16 @@
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
               <h6 class="text-uppercase mb-4 font-weight-bold">Ferramentas</h6>
               <p>
-                <a class="text-white">MDBootstrap</a>
+                <a>MDBootstrap</a>
               </p>
               <p>
-                <a class="text-white">DataMySQL</a>
+                <a>DataMySQL</a>
               </p>
               <p>
-                <a class="text-white">JavaScript</a>
+                <a>JavaScript</a>
               </p>
               <p>
-                <a class="text-white">Node</a>
+                <a>Node</a>
               </p>
             </div>
   
@@ -149,10 +122,10 @@
                 Links Importantes
               </h6>
               <p>
-                <a class="text-white">LogIn</a>
+                <a class="text-white" href="/html/login.html">LogIn</a>
               </p>
               <p>
-                <a class="text-white">Cadastro</a>
+                <a  class="text-white" href="/html/cadastro.html">Cadastro</a>
               </p>
             </div>
   
@@ -178,29 +151,9 @@
 
               <div class="p-3">
                 © 2023 Copyright:
-                <a class="text-white" href="https://mdbootstrap.com/"
-                   >MDBootstrap.com</a
-                  >
+                <a href="http://www.campusrussas.ufc.br/">campusrussas.ufc.br</a>
               </div>
 
-            </div>
-  
-            <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
-              <a class="btn btn-outline-light btn-floating m-1 text-white" role="button">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-
-              <a class="btn btn-outline-light btn-floating m-1 text-white" role="button">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-
-              <a class="btn btn-outline-light btn-floating m-1 text-white" role="button">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-
-              <a class="btn btn-outline-light btn-floating m-1 text-white" role="button">
-                <i class="fab fa-facebook-f"></i>
-              </a>
             </div>
             
           </div>
@@ -208,14 +161,13 @@
         
       </div>
       
-    </footer>
-    
+      </footer>
     </div>
-  </div>
 
     <!-- Boostrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
+
 </html>
